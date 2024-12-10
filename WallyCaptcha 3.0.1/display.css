@@ -1,0 +1,9 @@
+#WallyCaptchaContentWrapper iframe {
+  border-radius: 5px 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px;
+}
+
+#PopUpContentFrame {
+  display: none;
+}

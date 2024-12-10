@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Test webpage </title>
+    <link rel="stylesheet" href="display.css">
+    <style media="screen">
+      #MainContentFrame {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+      }
+
+      #PopUpContentFrame {
+        position: absolute;
+        top: 75px;
+        left: 15px;
+      }
+
+      body {
+        background-color: #202124;
+      }
+
+      #version {
+        position: absolute;
+        bottom: 10px;
+        float: right;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="version">Version 3.0.1</p>
+    <div id="WallyCaptchaContentWrapper">
+      <script type="text/javascript" src="script.js"></script>
+      <iframe src="main.html" width="270px" height="60px" id="MainContentFrame"></iframe>
+      <iframe src="inc/popupframe.html" width="400px" height="560px" id="PopUpContentFrame"></iframe>
+    </div>
+  </body>
+</html>
