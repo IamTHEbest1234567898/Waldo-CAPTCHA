@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: white;
+}
+
+img, a {
+  user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
+}
+
+#header {
+  width: calc(100% - 40px);
+  height: 60px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: rgba(236, 28, 36, 0.9);
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 28px;
+  color: white;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#verify {
+  position: absolute;
+  bottom: 16px;
+  float: right;
+  right: 8px;
+  background-color: rgba(236, 28, 36, 0.9);
+  border: 0px;
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#checkmarks .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: rgba(236, 28, 36, 0.9);
+  font-size: 30px;
+}
+
+#section_1_check {
+  position: absolute;
+  top: 110px;
+  left: 5px;
+  z-index: 2;
+  display: none;
+}
+
+#section_2_check {
+  position: absolute;
+  top: 110px;
+  left: 135px;
+  z-index: 2;
+  display: none;
+}
+
+#section_3_check {
+  position: absolute;
+  top: 110px;
+  left: 262px;
+  z-index: 2;
+  display: none;
+}
+
+#section_4_check {
+  position: absolute;
+  top: 240px;
+  left: 5px;
+  z-index: 2;
+  display: none;
+}
+
+#section_5_check {
+  position: absolute;
+  top: 240px;
+  left: 135px;
+  z-index: 2;
+  display: none;
+}
+
+#section_6_check {
+  position: absolute;
+  top: 240px;
+  left: 262px;
+  z-index: 2;
+  display: none;
+}
+
+#section_7_check {
+  position: absolute;
+  top: 367px;
+  left: 5px;
+  z-index: 2;
+  display: none;
+}
+
+#section_8_check {
+  position: absolute;
+  top: 367px;
+  left: 135px;
+  z-index: 2;
+  display: none;
+}
+
+#section_9_check {
+  position: absolute;
+  top: 367px;
+  left: 262px;
+  z-index: 2;
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#headphones .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#refresh {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+#headphones {
+  position: absolute;
+  left: 55px;
+  bottom: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+#info {
+  position: absolute;
+  left: 94px;
+  bottom: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+#section_1 {
+  position: absolute;
+  clip-path: inset(0px calc(66% + 3px) calc(66% + 3px) 0px);
+}
+
+#section_2 {
+  position: absolute;
+  clip-path: inset(0px calc(33% + 3px) calc(66% + 3px) calc(33% + 3px));
+}
+
+#section_3 {
+  position: absolute;
+  clip-path: inset(0px 0px calc(66% + 3px) calc(66% + 3px));
+}
+
+#section_4 {
+  position: absolute;
+  clip-path: inset(calc(33% + 3px) calc(66% + 3px) calc(33% + 3px) 0px);
+}
+
+#section_5 {
+  position: absolute;
+  clip-path: inset(calc(33% + 3px) calc(33% + 3px) calc(33% + 3px) calc(33% + 3px));
+}
+
+#section_6 {
+  position: absolute;
+  clip-path: inset(calc(33% + 3px) 0px calc(33% + 3px) calc(66% + 3px));
+}
+
+#section_7 {
+  position: absolute;
+  clip-path: inset(calc(66% + 3px) calc(66% + 3px) 0px 0px);
+}
+
+#section_8 {
+  position: absolute;
+  clip-path: inset(calc(66% + 3px) calc(33% + 3px) 0px calc(33% + 3px));
+}
+
+#section_9 {
+  position: absolute;
+  clip-path: inset(calc(66% + 3px) 0px 0px calc(66% + 3px));
+}

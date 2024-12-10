@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  width: 100%;
+  max-width: 600px;
+  height: 60px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px;
+  background-color: #f5f5f5;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+#CaptchaLogoImage {
+  position: absolute;
+  float: right;
+  top: 5px;
+  right: 5px;
+}
+
+#CaptchaCheckbox input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  margin: 0px;
+}
+
+#CaptchaCheckbox input[type=checkbox]:checked {
+  display: none;
+}
+
+#CaptchaCheckbox:has(input[type=checkbox]:checked) #CaptchaLoader {
+  display: block;
+}
+
+#CaptchaCheckbox h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  position: absolute;
+  left: 40px;
+  top: 22.75px;
+  color: #1E1E1E;
+  margin: 0px;
+}
+
+#CaptchaCheckbox .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 35px;
+  position: absolute;
+  top: 12.5px;
+  left: 5px;
+  display: none;
+}
+
+#check {
+  color: #34b233;
+}
+
+#fail {
+  color: #ec1c24;
+}
+
+#CaptchaLoader {
+  display: none;
+}
+
+.lds-ring {
+  color: grey;
+  position: absolute;
+  top: 10px;
+}
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  border: 3px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

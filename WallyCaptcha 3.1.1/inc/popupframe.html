@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/popup_child.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body onload="getCAPTCHA()">
+    <section id="header">
+      <p>Select all images with</p>
+      <h2>Wally</h2>
+    </section>
+
+    <script type="text/javascript" src="helper.js"></script>
+
+    <a onclick="section_1()"><img id="section_1" src="" width="384px"></a>
+    <a onclick="section_2()"><img id="section_2" src="" width="384px"></a>
+    <a onclick="section_3()"><img id="section_3" src="" width="384px"></a>
+    <a onclick="section_4()"><img id="section_4" src="" width="384px"></a>
+    <a onclick="section_5()"><img id="section_5" src="" width="384px"></a>
+    <a onclick="section_6()"><img id="section_6" src="" width="384px"></a>
+    <a onclick="section_7()"><img id="section_7" src="" width="384px"></a>
+    <a onclick="section_8()"><img id="section_8" src="" width="384px"></a>
+    <a onclick="section_9()"><img id="section_9" src="" width="384px"></a>
+
+    <div id="checkmarks">
+      <span id="section_1_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_2_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_3_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_4_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_5_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_6_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_7_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_8_check" class="material-symbols-outlined">check_circle</span>
+      <span id="section_9_check" class="material-symbols-outlined">check_circle</span>
+    </div>
+
+    <a onclick="getCAPTCHA()" id="refresh"><span class="material-symbols-outlined">refresh</span></a>
+
+    <a href="#headphones" id="headphones"><span class="material-symbols-outlined">headphones</span></a>
+
+    <a href="#info" id="info"><span class="material-symbols-outlined">info</span></a>
+
+    <button id="verify" type="submit" name="verify" onclick="check()">VERIFY</button>
+  </body>
+</html>
